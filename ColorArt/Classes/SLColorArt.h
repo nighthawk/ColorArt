@@ -19,9 +19,6 @@
 #import <UIKit/UIKit.h>
 @interface SLColorArt : NSObject
 @property(strong, nonatomic, readonly) UIColor *backgroundColor;
-@property(strong, nonatomic, readonly) UIColor *primaryColor;
-@property(strong, nonatomic, readonly) UIColor *secondaryColor;
-@property(strong, nonatomic, readonly) UIColor *detailColor;
 @property(nonatomic, readonly) NSInteger randomColorThreshold; // Default to 2
 
 - (id)initWithImage:(UIImage*)image;
